@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Celtec Homepage</title>
+<link href="styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+<div id="page">
+<img src="Website_Images/logo.png" alt="Celtecs logo image">
+
+<div id="navigation">
+<a href="Home.htm">Homepage</a>:
+<a href="Blog.htm">Blog</a>:
+<a href="About.htm">About us</a>:
+<a href="Product.htm">Product Page</a>:
+<a href="Contact.htm">Contact page</a>:
+</div>
+
+<div id="maincontent"> 
+<script>
+var Digital=new Date()
+var hours=Digital.getHours()
+if (hours>=0&&hours<=12)
+document.write('<b>Good Morning, welcome to the Celtec website.</b>')
+else if (hours>12&&hours<=17)
+document.write('<b>Good Afternoon, welcome to the Celtec website.</b>')
+else document.write('<b>Good Evening, welcome to the Celtec website.</b>')
+</script>
+
+<p>you can access the other parts of our website throught the links above you can find out about us and our games that we are working on you can also see our blog and contact us to tell us if you found a problem in or enjoy one of our games or just want us to know something or sign up for news about our new games</p>
+
+<img src="Website_Images/Game.jpg" alt="An image of somebody playing games"
+"width="300" height="200">
+
+</div>
+
+</div> 
+
+</body>
+</html>

@@ -1,0 +1,38 @@
+body {
+font-family: Arial, Helvetica, sans-serif;
+background-color: #ffffff;
+max-width: 900px;
+margin-right: auto;
+margin-left: auto;
+margin-top: 2px;
+}
+#page {
+background-color:#faefe1 ;
+}
+
+#navigation {
+text-align: left;
+padding-top: 10px;
+padding-right: 5px;
+}
+
+#maincontent {
+overflow: hidden;
+padding: 5px;
+Padding-left50x;
+}
+
+h2 {
+color: #003300;
+}
+
+h3 {
+color: #004800;
+}
+
+a {
+text-decoration: none;
+color: #003300;
+}
+a:hover {
+color: #B7C8F4;
